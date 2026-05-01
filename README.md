@@ -34,13 +34,13 @@ This repository contains the source code for my personal portfolio website. It s
 
 
 
-- \*\*Frontend:\*\* HTML, CSS, JavaScript
+- **Frontend:** HTML, CSS, JavaScript
 
-- \*\*Styling:\*\* Custom CSS / Tailwind / SCSS (update based on your setup)
+- **Styling:** Custom CSS / Tailwind / SCSS (update based on your setup)
 
-- \*\*Deployment:\*\* GitHub Pages / Vercel / Netlify
+- **Deployment:** GitHub Pages / Vercel / Netlify
 
-- \*\*Version Control:\*\* Git + GitHub
+- **Version Control:** Git + GitHub
 
 
 
