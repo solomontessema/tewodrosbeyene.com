@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tewodros Beyene — Senior SAP Basis Technical Lead &amp; Cloud Architect</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <style>
+  html, body { font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; scroll-behavior: smooth; }
+  :root { --bs-primary:#20c997; --bs-primary-rgb:32,201,151; --bs-secondary:#6c757d; --bs-light:#f8f9fa; --bs-dark:#343a40; --bs-body-bg:#f0f2f5; --bs-heading-color:#343a40; }
+  .bg-gradient-hero { background: radial-gradient(circle at 15% 50%, rgba(32,201,151,0.08) 0%, transparent 40%), radial-gradient(circle at 85% 50%, rgba(32,201,151,0.08) 0%, transparent 40%), linear-gradient(135deg,#e0f7fa 0%,#ffffff 100%); }
+  #topNav{transition:background-color .3s ease-in-out, box-shadow .3s ease-in-out;}
+  #topNav.scrolled{background-color:rgba(255,255,255,.95)!important;box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important;}
+  #topNav.scrolled .nav-link, #topNav.scrolled .navbar-brand{color:#212529!important;}
+  #topNav.scrolled .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280,0,0,0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")!important;}
+  .blog-img-fixed{height:180px;object-fit:cover;}
+  .btn-warning{--bs-btn-color:#fff;--bs-btn-bg:var(--bs-primary);--bs-btn-border-color:var(--bs-primary);--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#1aa67e;--bs-btn-hover-border-color:#1aa67e;--bs-btn-focus-shadow-rgb:49,132,253;--bs-btn-active-color:#fff;--bs-btn-active-bg:#1aa67e;--bs-btn-active-border-color:#1aa67e;--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:var(--bs-primary);--bs-btn-disabled-border-color:var(--bs-primary);}
+  .btn-outline-warning,.btn-outline-primary{--bs-btn-color:var(--bs-primary);--bs-btn-border-color:var(--bs-primary);--bs-btn-hover-color:#fff;--bs-btn-hover-bg:var(--bs-primary);--bs-btn-hover-border-color:var(--bs-primary);--bs-btn-active-color:#fff;--bs-btn-active-bg:var(--bs-primary);--bs-btn-active-border-color:var(--bs-primary);--bs-btn-disabled-color:var(--bs-primary);--bs-btn-disabled-bg:transparent;--bs-gradient:none;}
+  .btn-primary{--bs-btn-color:#fff;--bs-btn-bg:var(--bs-primary);--bs-btn-border-color:var(--bs-primary);--bs-btn-hover-color:#fff;--bs-btn-hover-bg:#1aa67e;--bs-btn-hover-border-color:#1aa67e;--bs-btn-active-color:#fff;--bs-btn-active-bg:#1aa67e;--bs-btn-active-border-color:#1aa67e;--bs-btn-disabled-color:#fff;--bs-btn-disabled-bg:var(--bs-primary);--bs-btn-disabled-border-color:var(--bs-primary);}
+  .badge.bg-primary{background-color:var(--bs-primary)!important;}
+  .text-primary{color:var(--bs-primary)!important;}
+  .bg-primary-subtle{background-color:rgba(32,201,151,0.1)!important;}
+  .text-primary-emphasis{color:#0b3d2e!important;}
+  .form-control:focus{border-color:rgba(32,201,151,.55);box-shadow:0 0 0 .25rem rgba(32,201,151,.28);}
+  .profile-picture{width:250px;height:250px;border-radius:50%;object-fit:cover;border:3px solid var(--bs-primary);box-shadow:0 0 0 5px rgba(32,201,151,0.1);}
+  .text-muted,.text-secondary{color:#495057!important;}
+  .navbar.bg-transparent .navbar-brand,.navbar.bg-transparent .nav-link{color:#212529!important;text-shadow:0 1px 2px rgba(255,255,255,.6),0 0 1px rgba(0,0,0,.35);}
+  footer .text-muted{color:#e9ecef!important;}
+  #blog_div .card .card-body p{color:#212529!important;}
+  #home .badge.bg-primary-subtle,#resume .badge.bg-primary-subtle{background-color:rgba(32,201,151,0.18)!important;color:#0b3d2e!important;border:1px solid rgba(32,201,151,0.45);}
+  #resume .badge.bg-primary-subtle.text-secondary{color:#0b3d2e!important;}
+  @media (max-width: 767.98px){.hero-card-content{text-align:center;}.hero-card-content .d-flex{justify-content:center!important;}.profile-picture{margin-bottom:1.5rem!important;}}
+  </style>
+</head>
+<body class="bg-body-bg">
+  <nav id="topNav" class="navbar navbar-expand-lg fixed-top bg-transparent">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home" id="brandName">Tewodros Beyene</a>
+      <button class="navbar-toggler border-0 shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="mainNav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-lg-center fw-semibold">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-warning fw-semibold px-3" href="#contact"><i class="fa-regular fa-paper-plane me-2"></i>Work with me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header id="home" class="min-vh-100 d-flex align-items-center py-5 bg-gradient-hero text-dark">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="p-4 p-md-5 bg-white rounded-4 shadow-lg d-flex flex-column flex-md-row align-items-center">
+            <div class="flex-shrink-0 mb-4 mb-md-0 me-md-4 text-center">
+              <img id="profileImage" src="image/profile picture 3.jpeg" alt="Tewodros Beyene" class="profile-picture">
+            </div>
+            <div class="flex-grow-1 text-center text-md-start hero-card-content">
+              <span id="heroTags" class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold mb-3 fs-6">SAP S/4HANA • SAP BTP • GRC • HANA • Cloud</span>
+              <h1 class="display-4 fw-bold mb-3 text-dark" id="fullName">Tewodros Beyene</h1>
+              <p class="lead mb-3 text-muted">I&#x27;m Tewodros Beyene, a Senior SAP Basis Technical Lead with 10+ years of hands-on experience administering enterprise SAP landscapes including S/4HANA, ECC, GRC, BW, and Solution Manager. I specialize in hybrid and cloud-hosted SAP environments, SAP Business Technology Platform (BTP), HANA database performance optimization, and SAP security governance through GRC Access Control. I bring deep expertise in full SAP lifecycle management — from installations and upgrades to disaster recovery design and high availability architecture — and I take pride in maintaining mission-critical system uptime while mentoring the next generation of SAP Basis professionals.</p><p class="lead mb-2 text-muted" id="headline">Senior SAP Basis Technical Lead & Cloud Architect</p>
+              <p class="mb-4 text-secondary small" id="stackLine">SAP S/4HANA • SAP ECC • SAP GRC • SAP BTP • SAP HANA • SAP Solution Manager • SWPM • SUM • SUSE Linux • Red Hat Enterprise Linux • Windows Server • MS SQL Server • Oracle • Sybase ASE</p>
+              <div class="d-flex gap-2 justify-content-center justify-content-md-start">
+                <a href="#resume" class="btn btn-warning btn-lg"><i class="fa-solid fa-id-badge me-2"></i>See Resume</a>
+                <a href="#contact" class="btn btn-outline-warning btn-lg"><i class="fa-solid fa-envelope me-2"></i>Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="resume" class="py-5">
+    <div class="container">
+      <div class="d-flex align-items-center mb-4">
+        <h2 class="fw-bold mb-0 text-dark">Resume</h2>
+        <div class="ms-3 flex-grow-1 border-bottom border-secondary border-opacity-25"></div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-7">
+          <div class="p-4 bg-white rounded-4 shadow-sm h-100">
+            <h3 class="h5 fw-bold text-primary mb-3"><i class="fa-solid fa-briefcase me-2"></i>Experience</h3>
+            <div class="accordion accordion-flush" id="expAccordion">
+      <div class="accordion-item border-0 mb-2">
+        <h2 class="accordion-header" id="exp1">
+          <button class="accordion-button fw-semibold shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#exp1c" aria-expanded="true" aria-controls="exp1c">
+            Senior SAP System Administrator &amp; Technical Lead — Fairfax Transactional Advisors, LLC <span class="ms-2 text-muted small">(Mar 2020 – Present)</span>
+          </button>
+        </h2>
+        <div id="exp1c" class="accordion-collapse collapse show" aria-labelledby="exp1" data-bs-parent="#expAccordion">
+          <div class="accordion-body text-secondary"><ul class="mb-0"><li>Lead SAP Basis operations for enterprise S/4HANA and ECC landscapes supporting mission-critical global business operations</li><li>Architect and manage SAP system installations, upgrades, and migrations using SWPM and SUM including full lifecycle planning and post-go-live stabilization</li><li>Administer SAP Business Technology Platform (BTP) including subaccounts, entitlements, and Cloud Connector integrations for secure hybrid connectivity</li><li>Lead HANA performance troubleshooting covering memory management, CPU optimization, delta merge efficiency, and SQL tuning</li><li>Design and maintain SAP roles and authorization models aligned with security governance standards; govern firefighter access and SoD risk remediation via SAP GRC Access Control</li><li>Partnered with cross-functional teams (HCM, FI/CO, SD, MM, PM) to design and implement Fiori Launchpad-aligned business roles in the S/4HANA environment</li><li>Implement and maintain SSL, SNC, SSO, SAP Router, and Web Dispatcher configurations ensuring secure enterprise communication</li><li>Design and test disaster recovery and high availability strategies to meet RTO/RPO objectives</li><li>Maintain 99.9%+ system uptime through proactive monitoring, capacity planning, and performance optimization</li><li>Mentor and guide SAP Basis team members promoting operational excellence and knowledge transfer</li></ul></div>
+        </div>
+      </div>
+    
+
+      <div class="accordion-item border-0 mb-2">
+        <h2 class="accordion-header" id="exp2">
+          <button class="accordion-button collapsed fw-semibold shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#exp2c" aria-expanded="false" aria-controls="exp2c">
+            SAP Consultant – System Basis &amp; Solution Manager — Fairfax Technologies, LLC <span class="ms-2 text-muted small">(Mar 2017 – Feb 2020)</span>
+          </button>
+        </h2>
+        <div id="exp2c" class="accordion-collapse collapse " aria-labelledby="exp2" data-bs-parent="#expAccordion">
+          <div class="accordion-body text-secondary"><ul class="mb-0"><li>Managed SAP ECC, GRC, BW, and Solution Manager environments across global enterprise landscapes</li><li>Implemented SAP Solution Manager monitoring, alerts, diagnostics, and ChaRM for centralized lifecycle management</li><li>Designed and executed backup/recovery and disaster recovery solutions for high-availability SAP systems</li><li>Led transport management governance and system refreshes for QA and sandbox environments</li><li>Conducted root cause analysis for performance and integration issues across application, database, and OS layers</li></ul></div>
+        </div>
+      </div>
+    
+
+      <div class="accordion-item border-0 mb-2">
+        <h2 class="accordion-header" id="exp3">
+          <button class="accordion-button collapsed fw-semibold shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#exp3c" aria-expanded="false" aria-controls="exp3c">
+            Senior Consultant – SAP Basis &amp; Solution Manager Administrator — Ernst &amp; Young <span class="ms-2 text-muted small">(Jan 2011 – Feb 2017)</span>
+          </button>
+        </h2>
+        <div id="exp3c" class="accordion-collapse collapse " aria-labelledby="exp3" data-bs-parent="#expAccordion">
+          <div class="accordion-body text-secondary"><ul class="mb-0"><li>Supported SAP implementations and ongoing production operations across ECC ABAP and Java stack environments for large enterprise clients</li><li>Administered SAP NetWeaver ABAP &amp; Java stacks including ADS integration</li><li>Managed ITGC compliance initiatives supporting SOX and internal audit frameworks across multiple client engagements</li><li>Developed standardized operational procedures for refresh, backup, and recovery across distributed SAP environments</li><li>Supported large, multi-system enterprise SAP landscapes with performance tuning and cross-layer troubleshooting</li></ul></div>
+        </div>
+      </div>
+    
+
+      <div class="accordion-item border-0 mb-2">
+        <h2 class="accordion-header" id="exp4">
+          <button class="accordion-button collapsed fw-semibold shadow-none rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#exp4c" aria-expanded="false" aria-controls="exp4c">
+            IT Consultant – SAP Controls &amp; IT Audit — Ernst &amp; Young <span class="ms-2 text-muted small">(Jun 2009 – Dec 2010)</span>
+          </button>
+        </h2>
+        <div id="exp4c" class="accordion-collapse collapse " aria-labelledby="exp4" data-bs-parent="#expAccordion">
+          <div class="accordion-body text-secondary"><ul class="mb-0"><li>Conducted SAP and Oracle ITGC reviews including access management, change control, and data integrity processes</li><li>Delivered SAP security governance frameworks through role-based access improvements aligned with SOX and ITGC standards</li><li>Delivered IT strategy and service management improvements across multiple enterprise engagements</li></ul></div>
+        </div>
+      </div>
+    </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="p-4 bg-white rounded-4 shadow-sm mb-4">
+            <h3 class="h5 fw-bold text-primary mb-3"><i class="fa-solid fa-graduation-cap me-2"></i>Education</h3>
+            <ul class="mb-0 text-secondary" id="educationList"><li class="mb-2"><strong>Bachelor of Science, Computer Science</strong> — University (Ethiopia) (Prior to 2009)</li></ul>
+          </div>
+
+          <div class="p-4 bg-white rounded-4 shadow-sm mb-4">
+            <h3 class="h5 fw-bold text-primary mb-3"><i class="fa-solid fa-screwdriver-wrench me-2"></i>Skills</h3>
+            <div class="d-flex flex-wrap gap-2" id="skillsBadges"><span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SAP S/4HANA Administration</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SAP HANA Performance Optimization</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SAP BTP &amp; Cloud Connector</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SAP GRC Access Control</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">System Installations &amp; Upgrades (SWPM/SUM)</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">Kernel Patching &amp; Support Packs</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">Disaster Recovery &amp; High Availability</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SAP Security &amp; Role Design</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">Transport Management (TMS)</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SAP ChaRM &amp; Change Control</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SAP SLT Real-Time Replication</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SSL / SNC / SSO / SAP Router</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">Root Cause Analysis</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">ITIL Incident &amp; Problem Management</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">SOX / ISO 27000 / GDPR Compliance</span> <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-semibold">Technical Leadership &amp; Mentorship</span></div>
+          </div>
+
+          <div class="p-4 bg-white rounded-4 shadow-sm">
+            <div class="d-flex align-items-center justify-content-between">
+              <h3 class="h5 fw-bold text-primary mb-0"><i class="fa-solid fa-certificate me-2"></i>Certifications</h3>
+              <a href="pdf/Resume.pdf" class="btn btn-sm btn-outline-secondary fw-semibold"><i class="fa-solid fa-download me-1"></i>Download PDF</a>
+            </div>
+            <ul class="mb-0 mt-3 text-secondary" id="certList"><li>SAP Certified Technology Associate – System Administration (Oracle DB) with SAP NetWeaver</li><li>ITIL Foundation Certified</li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 bg-body-bg">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="card border-0 shadow-lg rounded-4">
+            <div class="card-body p-4 p-md-5">
+              <h2 class="text-center fw-bold mb-3 text-dark">Get in Touch</h2>
+              <p class="text-center text-muted">Email: <a id="emailLink" href="mailto:tewodrosmebr@gmail.com">tewodrosmebr@gmail.com</a></p>
+              <p class="text-center text-muted">LinkedIn: <a id="linkedinLink" target="_blank" href="https://www.linkedin.com/in/tewodros-Beyene-32322334/">LinkedIn</a></p>
+              <p class="text-center text-muted">GitHub: <a id="githubLink" target="_blank" href="https://github.com/tewodrosbeyene">GitHub</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-4 bg-dark text-white">
+    <div class="container">
+      <p class="text-center text-muted mb-0">&copy; <span id="year"></span> <span id="footerName">Tewodros Beyene</span></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script><script>
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('topNav');
+      if (window.scrollY > 50) nav.classList.add('scrolled'); else nav.classList.remove('scrolled');
+    });
+  </script>
+</body>
+</html>
