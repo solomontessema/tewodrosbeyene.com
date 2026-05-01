@@ -1,4 +1,4 @@
-\# Tewodros Beyene — Portfolio Website
+# Tewodros Beyene — Portfolio Website
 
 
 
@@ -6,49 +6,49 @@ This repository contains the source code for my personal portfolio website. It s
 
 
 
-\---
+---
 
 
 
-\## Features
+## Features
 
 
 
-\- Clean, responsive layout optimized for all devices
+- Clean, responsive layout optimized for all devices
 
-\- Project portfolio with descriptions and external links
+- Project portfolio with descriptions and external links
 
-\- Fast, lightweight structure for long‑term maintainability
+- Fast, lightweight structure for long‑term maintainability
 
-\- SEO‑friendly metadata and page structure
+- SEO‑friendly metadata and page structure
 
-\- Simple, intuitive navigation
-
-
-
-\---
+- Simple, intuitive navigation
 
 
 
-\## Tech Stack
+---
 
 
 
-\- \*\*Frontend:\*\* HTML, CSS, JavaScript
-
-\- \*\*Styling:\*\* Custom CSS / Tailwind / SCSS (update based on your setup)
-
-\- \*\*Deployment:\*\* GitHub Pages / Vercel / Netlify
-
-\- \*\*Version Control:\*\* Git + GitHub
+## Tech Stack
 
 
 
-\---
+- \*\*Frontend:\*\* HTML, CSS, JavaScript
+
+- \*\*Styling:\*\* Custom CSS / Tailwind / SCSS (update based on your setup)
+
+- \*\*Deployment:\*\* GitHub Pages / Vercel / Netlify
+
+- \*\*Version Control:\*\* Git + GitHub
 
 
 
-\## Project Structure
+---
+
+
+
+## Project Structure
 
 
 
